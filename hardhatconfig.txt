@@ -1,0 +1,25 @@
+
+
+  npx hardhat run scripts/deploy_itmantokencrowdsale.js --network bsctestnet
+  npx hardhat run scripts/deploy_monstercrowdsale.js --network bsctestnet
+
+  npx hardhat run scripts/deploy_shibametaverscrowdsale.js --network bsctestnet
+
+  npx hardhat run scripts/deploy.js --network bsctestnet
+
+  npx hardhat run scripts/deploy.js --network rinkeby
+  npx hardhat verify --network rinkeby 0xC28d44347E85d44cf4D0B4496231Ddd3AfF14a31
+
+  npx hardhat verify --network bsctestnet 0x1742305Cf600441522302099C145146831417be9
+
+  
+npx hardhat verify --network bsctestnet 0x4AAc10f83db51B523DF076045161904a7d11D2D0 "MonsterBattle" "MON"
+
+
+  npx hardhat verify --network bsctestnet 0x0527f5E9A49770Ad3fEd9B72C61CdC77B0233883 500 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 0xdB237B4767178Da4279Ad8A4C2AC08061664B5cA 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 1631896319 1632501119
+
+
+npx hardhat verify --network bsctestnet 0xAad522DF23e368eD3eea6f00e315afac1E4D105C 500 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 0xF3580906dfeB241d40fd2E350d9359348F83D819 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 1632052354 1632657154
+
+npx hardhat verify --network bsctestnet 0x4f59c11d5C328b6a5dbb071c8F943Fd1D519C091 500 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 0xa4ADa262E1E210BbB6a9CAE19212898aee92c1d4 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 1635589225 1635675625
+

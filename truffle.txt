@@ -1,0 +1,17 @@
+truffle migrate --network rinkeby --reset 2_smart_contract_migration.js
+truffle migrate --network bsctestnet--reset 2_smart_contract_migration.js
+
+
+truffle run verify Migrations@0x5C32A3efccF0caf1f8f1248d48d3baB01994aCb1 --network bsctestnet
+
+truffle run verify LipToken@0xB19E6b8c734B134ED086F1919E8Ff795844698D1 --network bsctestnet
+
+
+truffle run verify SmartContract@0x76E0a74F4b1a0a6102424E62915e0d0A228c7Eb1 --network rinkeby
+
+
+lam phang hd:
+
+npx truffle-flattener ./contracts/SmartContract.sol > ./contracts/FlatSimpleToken.sol
+
+truffle run verify SmartContract --network
