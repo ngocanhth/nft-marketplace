@@ -23,3 +23,4 @@ npx hardhat verify --network bsctestnet 0xAad522DF23e368eD3eea6f00e315afac1E4D10
 
 npx hardhat verify --network bsctestnet 0x4f59c11d5C328b6a5dbb071c8F943Fd1D519C091 500 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 0xa4ADa262E1E210BbB6a9CAE19212898aee92c1d4 0x06B4ec55Cdd9f1d94d675b99B22729c34886281A 1635589225 1635675625
 
+npx hardhat run scripts/deploy.js  --network hardhat
